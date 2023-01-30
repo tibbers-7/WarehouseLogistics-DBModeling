@@ -50,7 +50,7 @@
 <colUsage columnID="54DF04DF-D9C6-F8D5-DA3D-B361DACA1C64"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2596965D-1F2E-5C15-ED8D-7F074CCAC961" name="Relation_14_StorageKeepingUnit_FK">
+<ind_PK_UK id="2596965D-1F2E-5C15-ED8D-7F074CCAC961" name="StorageKeepingUnit_FK">
 <createdBy>Anja</createdBy>
 <createdTime>2023-01-24 21:10:07 UTC</createdTime>
 <generatorID>92D2E009-E0A5-E7B1-E079-694E3F32657A</generatorID>
@@ -61,7 +61,7 @@
 <colUsage columnID="BAA5928F-5E02-49AF-7238-5BAB4C5D1619"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="758A112B-38D5-7A91-BCBD-C18C7FE2B119" name="Relation_14_StorageKeepingUnit_FKv1">
+<ind_PK_UK id="758A112B-38D5-7A91-BCBD-C18C7FE2B119" name="StorageKeepingUnit_FKv1">
 <createdBy>Anja</createdBy>
 <createdTime>2023-01-24 21:10:07 UTC</createdTime>
 <generatorID>92D2E009-E0A5-E7B1-E079-694E3F32657A</generatorID>
