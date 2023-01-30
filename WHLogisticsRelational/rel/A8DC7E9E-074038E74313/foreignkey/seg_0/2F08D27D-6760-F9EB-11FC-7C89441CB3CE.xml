@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F08D27D-6760-F9EB-11FC-7C89441CB3CE" containerWithKeyObject="DE21B9B2-4101-9FD0-D974-59A7CCFADA1A" localFKIndex="9D6AD988-0042-D620-4B83-249339D216F6" name="Transporter_LegalEntity_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>FF3A8360-6F15-A9D9-6DDE-6DAF89EAA531</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<referredTableLongName>LegalEntity</referredTableLongName>
+<arc>A74591D8-CACF-F09C-8A33-560993E34C5D</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>91B58787-ED8F-0372-85E4-97306783ADB9</referredTableID>
+<keyObject>BF9DC251-9A08-4558-398B-FD675DA7D813</keyObject>
+<referredKeyID>BF9DC251-9A08-4558-398B-FD675DA7D813</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEntity</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Transporter</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

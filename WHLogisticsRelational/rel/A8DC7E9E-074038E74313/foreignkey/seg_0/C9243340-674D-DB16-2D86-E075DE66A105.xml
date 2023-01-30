@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9243340-674D-DB16-2D86-E075DE66A105" containerWithKeyObject="A583CD32-2ADB-AF59-2564-84B2AAFEC516" localFKIndex="B4F2FA44-7870-46B5-E4CD-2311DFA3B877" name="Buyer_LegalEntity_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>E3C61125-81E8-1CF8-DA45-13E1AE1101FA</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<referredTableLongName>LegalEntity</referredTableLongName>
+<arc>A74591D8-CACF-F09C-8A33-560993E34C5D</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>91B58787-ED8F-0372-85E4-97306783ADB9</referredTableID>
+<keyObject>BF9DC251-9A08-4558-398B-FD675DA7D813</keyObject>
+<referredKeyID>BF9DC251-9A08-4558-398B-FD675DA7D813</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEntity</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Buyer</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

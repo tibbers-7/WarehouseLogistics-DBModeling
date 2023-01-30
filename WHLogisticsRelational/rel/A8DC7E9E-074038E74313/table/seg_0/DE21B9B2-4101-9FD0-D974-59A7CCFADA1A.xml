@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE21B9B2-4101-9FD0-D974-59A7CCFADA1A" name="Transporter">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>D08FDC89-FBED-F69E-EEC6-5A5AC0DAFF5B</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEntity" id="A82077A6-CF21-3304-5920-A7C1D115DF57">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>CCD5C7D7-4C3D-6F13-E63C-149465CE0E5B</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F08D27D-6760-F9EB-11FC-7C89441CB3CE" referredColumn="B1742888-912D-B8FA-617F-9E46831B3599"/>
+</associations>
+</Column>
+<Column name="idTransporter" id="D2294906-1E95-4D88-E06F-740B0B9407A8">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>4EF98492-8656-2B38-EA13-DFC34E9182E0</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fleet" id="5D88B873-522F-D761-A116-12AC24367770">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>D05893D0-D1FC-4DB9-0750-109340333F2A</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40520DBA-1C00-CA55-A750-73B86FD713AA" name="Transporter_PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>987BFDEC-218B-0C26-0B55-F1B0FDC53FD3</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A82077A6-CF21-3304-5920-A7C1D115DF57"/>
+<colUsage columnID="D2294906-1E95-4D88-E06F-740B0B9407A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5B7E321-88AA-58AD-1640-50B7703F6265" name="Transporter_PKv1">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>B86C9ACC-F2C1-1815-43EF-2EF7D2FEDEA8</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2294906-1E95-4D88-E06F-740B0B9407A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D6AD988-0042-D620-4B83-249339D216F6" name="Transporter_LegalEntity_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>FF3A8360-6F15-A9D9-6DDE-6DAF89EAA531</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A82077A6-CF21-3304-5920-A7C1D115DF57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

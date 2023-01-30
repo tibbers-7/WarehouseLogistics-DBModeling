@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63D5355A-C988-670E-804A-FD8074BBB1A3" name="Laboratory">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>0040FFA6-717B-E020-75C8-FE61D33EB19D</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEntity" id="30ED042F-7DCE-6634-DABD-D60F584DC870">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>CCD5C7D7-4C3D-6F13-E63C-149465CE0E5B</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73C57DBA-1977-5F6D-5385-402854918A05" referredColumn="B1742888-912D-B8FA-617F-9E46831B3599"/>
+</associations>
+</Column>
+<Column name="idLAB" id="FDCC28CD-AA8C-5A87-DD04-C3F229029791">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>5D6DE82F-E42F-4BBB-C206-1C59822FE597</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TypeOfAnalysis" id="DCC3D404-A917-1525-65D7-8141FADDD6BD">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>595F4790-A5B7-9F22-1189-CED1CE0092C0</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Analysis_idAnalysis" id="D6236716-FB45-78BA-90DE-3C48CBE145A9">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>A74E7ADC-9297-7013-A888-CD2500BCEB63</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BDC340D-C06F-5D06-B857-9D8402FD8BF1" referredColumn="D5208A11-3F12-F57B-8DED-ECD5E7B64527"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AAC6428-8BCF-16D6-A5D0-A27882C8B20C" name="Laboratory_PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>987BFDEC-218B-0C26-0B55-F1B0FDC53FD3</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30ED042F-7DCE-6634-DABD-D60F584DC870"/>
+<colUsage columnID="FDCC28CD-AA8C-5A87-DD04-C3F229029791"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47E7A815-EC88-1BAF-CE3F-152615FA8780" name="Laboratory_PKv1">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>C7B607A4-6213-719D-03FD-287DF24AB3D4</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDCC28CD-AA8C-5A87-DD04-C3F229029791"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1922F47-3C94-32B0-955A-FB915BF14B49" name="Laboratory_LegalEntity_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>8AF85F08-A413-F37C-74CA-5317558AA76C</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30ED042F-7DCE-6634-DABD-D60F584DC870"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43B31CDE-9496-EB68-E94E-E7BE9F75BABA" name="Laboratory_Analysis_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>5F706DF0-D0D7-46B2-AD1C-34C9F63199BD</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6236716-FB45-78BA-90DE-3C48CBE145A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

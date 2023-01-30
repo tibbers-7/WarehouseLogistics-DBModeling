@@ -1,0 +1,1 @@
+ALTER TABLE analysisreport ADD CONSTRAINT analysisreport_pk PRIMARY KEY ( analysis_idanalysis );

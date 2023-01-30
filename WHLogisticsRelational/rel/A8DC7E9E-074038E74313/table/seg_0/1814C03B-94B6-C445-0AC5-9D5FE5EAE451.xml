@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1814C03B-94B6-C445-0AC5-9D5FE5EAE451" name="AnalysisReport">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>7C83697E-C03B-5226-9760-DE48115AECBC</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Status" id="F547D3B4-9171-86E3-8625-0B92B2443D5D">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>0BB985B2-E58F-DEC3-4729-8B1920A76C3C</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<domain>222E3836-FDEE-27EF-303C-DFC57071C8E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Report" id="281173A9-DC75-1B54-BB6E-831D20147255">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>031A1A80-3D12-D561-DFB3-492F1DB9DE70</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Analysis_idAnalysis" id="EDECC3D0-CB2E-F0B3-FC67-51C55DBD0AB0">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>2F95B1CF-FD31-9BDB-6789-8C051BDB5AFD</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8A3FDAC-AFDE-4147-2FEC-CE57B2E662CB" referredColumn="D5208A11-3F12-F57B-8DED-ECD5E7B64527"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D2C6292-8765-1D94-7F65-857313794CA3" name="AnalysisReport_PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>C4B23BC5-0B50-CF90-4357-568843B49397</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDECC3D0-CB2E-F0B3-FC67-51C55DBD0AB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB1EC532-943D-35EA-B598-12803875A358" name="AnalysisReport_Analysis_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>0E906E38-BF8C-2A7D-BB3D-C4AFBD818BB2</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDECC3D0-CB2E-F0B3-FC67-51C55DBD0AB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

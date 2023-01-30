@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+<changeSet author="Anja" id="_10">
+ <n0:runOracleScript objectName="MDSYS.SDO_GEOMETRY.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Structure_Type\MDSYS.SDO_GEOMETRY.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_20">
+ <n0:runOracleScript objectName="XMLTYPE.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Structure_Type\XMLTYPE.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_30">
+ <n0:runOracleScript objectName="Analysis.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Analysis.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_40">
+ <n0:runOracleScript objectName="Analysis_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Analysis_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_50">
+ <n0:runOracleScript objectName="AnalysisReport.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\AnalysisReport.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_60">
+ <n0:runOracleScript objectName="AnalysisReport_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\AnalysisReport_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_70">
+ <n0:runOracleScript objectName="Batch.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Batch.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_80">
+ <n0:runOracleScript objectName="Batch_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Batch_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_90">
+ <n0:runOracleScript objectName="Buyer.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Buyer.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_100">
+ <n0:runOracleScript objectName="Buyer_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Buyer_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_110">
+ <n0:runOracleScript objectName="Itinerary.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Itinerary.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_120">
+ <n0:runOracleScript objectName="Itinerary_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Itinerary_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_130">
+ <n0:runOracleScript objectName="Laboratory.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Laboratory.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_140">
+ <n0:runOracleScript objectName="Laboratory_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Laboratory_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_150">
+ <n0:runOracleScript objectName="LegalEntity.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\LegalEntity.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_160">
+ <n0:runOracleScript objectName="LegalEntity_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\LegalEntity_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_170">
+ <n0:runOracleScript objectName="ProductionReport.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ProductionReport.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_180">
+ <n0:runOracleScript objectName="ProductionReport_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ProductionReport_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_190">
+ <n0:runOracleScript objectName="ReleaseOrder.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ReleaseOrder.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_200">
+ <n0:runOracleScript objectName="ReleaseOrder_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ReleaseOrder_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_210">
+ <n0:runOracleScript objectName="ReleaseOrderItem.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ReleaseOrderItem.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_220">
+ <n0:runOracleScript objectName="ReleaseOrderItem_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ReleaseOrderItem_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_230">
+ <n0:runOracleScript objectName="SKU_Multiple.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\SKU_Multiple.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_240">
+ <n0:runOracleScript objectName="SKU_Multiple_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\SKU_Multiple_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_250">
+ <n0:runOracleScript objectName="StorageKeepingUnit.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\StorageKeepingUnit.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_260">
+ <n0:runOracleScript objectName="StorageKeepingUnit_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\StorageKeepingUnit_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_270">
+ <n0:runOracleScript objectName="Transporter.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Transporter.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_280">
+ <n0:runOracleScript objectName="Transporter_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Transporter_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_290">
+ <n0:runOracleScript objectName="Vehicle.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Vehicle.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_300">
+ <n0:runOracleScript objectName="Vehicle_Constraints.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Vehicle_Constraints.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_310">
+ <n0:runOracleScript objectName="Analysis_ProductionReport_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Analysis_ProductionReport_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_320">
+ <n0:runOracleScript objectName="AnalysisReport_Analysis_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\AnalysisReport_Analysis_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_330">
+ <n0:runOracleScript objectName="Batch_ProductionReport_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Batch_ProductionReport_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_340">
+ <n0:runOracleScript objectName="Buyer_LegalEntity_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Buyer_LegalEntity_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_350">
+ <n0:runOracleScript objectName="Itinerary_ReleaseOrder_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Itinerary_ReleaseOrder_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_360">
+ <n0:runOracleScript objectName="Itinerary_Vehicle_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Itinerary_Vehicle_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_370">
+ <n0:runOracleScript objectName="Laboratory_Analysis_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Laboratory_Analysis_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_380">
+ <n0:runOracleScript objectName="Laboratory_LegalEntity_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Laboratory_LegalEntity_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_390">
+ <n0:runOracleScript objectName="Relation_14_StorageKeepingUnit_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Relation_14_StorageKeepingUnit_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_400">
+ <n0:runOracleScript objectName="Relation_14_StorageKeepingUnit_FKv1.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Relation_14_StorageKeepingUnit_FKv1.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_410">
+ <n0:runOracleScript objectName="ReleaseOrder_Buyer_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\ReleaseOrder_Buyer_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_420">
+ <n0:runOracleScript objectName="ReleaseOrderItem_ProductionReport_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\ReleaseOrderItem_ProductionReport_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_430">
+ <n0:runOracleScript objectName="ReleaseOrderItem_ReleaseOrder_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\ReleaseOrderItem_ReleaseOrder_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_440">
+ <n0:runOracleScript objectName="StorageKeepingUnit_Batch_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\StorageKeepingUnit_Batch_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_450">
+ <n0:runOracleScript objectName="Transporter_LegalEntity_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Transporter_LegalEntity_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+<changeSet author="Anja" id="_460">
+ <n0:runOracleScript objectName="Vehicle_Transporter_FK.sql" ownerName="OSDDM-Anja" sourceType="FILE" >
+   <n0:source><![CDATA[WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Vehicle_Transporter_FK.sql]]></n0:source>
+ </n0:runOracleScript>
+</changeSet>
+</databaseChangeLog>

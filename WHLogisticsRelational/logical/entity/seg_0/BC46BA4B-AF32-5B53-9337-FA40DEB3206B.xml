@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC46BA4B-AF32-5B53-9337-FA40DEB3206B" name="ProductionReport">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 18:31:49 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPR" id="AC8FD6E9-3ACF-0702-6C75-3156D208EDC5">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 18:32:18 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProdLine" id="4FC77ACB-D970-E42E-F03A-E5574E4A2C57">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 19:35:55 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProdDate" id="AB74816D-C570-0099-8055-A9C7F804186A">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 19:36:51 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AB1EB8D-3738-88BF-5E51-148471687576" name="ProductionReport PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 18:32:56 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AC8FD6E9-3ACF-0702-6C75-3156D208EDC5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

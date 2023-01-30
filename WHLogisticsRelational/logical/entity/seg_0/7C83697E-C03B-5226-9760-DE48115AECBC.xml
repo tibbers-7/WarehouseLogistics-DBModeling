@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C83697E-C03B-5226-9760-DE48115AECBC" name="AnalysisReport">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:31:10 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Status" id="0BB985B2-E58F-DEC3-4729-8B1920A76C3C">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:31:32 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<domain>222E3836-FDEE-27EF-303C-DFC57071C8E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Report" id="031A1A80-3D12-D561-DFB3-492F1DB9DE70">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:31:41 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAnalysis" id="2F95B1CF-FD31-9BDB-6789-8C051BDB5AFD">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:06:36 UTC</createdTime>
+<generatorID>0E906E38-BF8C-2A7D-BB3D-C4AFBD818BB2</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<referedAttribute>A86D844E-EFF2-5792-D27E-67A37D157A5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C4B23BC5-0B50-CF90-4357-568843B49397" name="AnalysisReport PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:31:31 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5168AF0F-9853-9DB5-7BC4-814BA3BD1D23</attributeRef>
+<attributeRef>2F95B1CF-FD31-9BDB-6789-8C051BDB5AFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

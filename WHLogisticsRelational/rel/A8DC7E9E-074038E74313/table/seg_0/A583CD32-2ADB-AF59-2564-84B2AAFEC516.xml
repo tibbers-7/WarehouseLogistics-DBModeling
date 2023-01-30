@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A583CD32-2ADB-AF59-2564-84B2AAFEC516" name="Buyer">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>D50FA1C3-A9C7-4421-C83C-DE0CD7B225C7</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<afterCreate><![CDATA[INSERT INTO Buyer (idEntity,idBuyer,FinLimit,CasaConto,ManagerOfOperations)
+VALUES (1,1,1.0,1.0,"Milan Miric")]]></afterCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEntity" id="B5AEC3B6-B9BE-8AEA-8D23-936297CE1C5E">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>CCD5C7D7-4C3D-6F13-E63C-149465CE0E5B</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Buyer_idEntity</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C9243340-674D-DB16-2D86-E075DE66A105" referredColumn="B1742888-912D-B8FA-617F-9E46831B3599"/>
+</associations>
+</Column>
+<Column name="idBuyer" id="D50634AB-CA7E-8B32-8E15-B6713B8CE2C2">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>C75156CD-FEF6-C88D-3A55-B9B803BA335A</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Buyer_idBuyer</notNullConstraintName>
+</Column>
+<Column name="FinLimit" id="2E961409-81B4-0EA3-9046-CD818E778998">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>F86821F1-D0E4-D2D1-B8BF-F843518CA72B</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CasaConto" id="FE1EED2B-982C-DD06-0476-EDB1962E2B8D">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>E8428D25-2A42-9358-60AF-9F4BA1D05F10</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ManagerOfOperations" id="14AA5454-AFEF-31AD-DA17-53D2BD7B6CF6">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>9102808B-FD3A-1F62-78B5-F23F85E4E200</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9EC1084-C659-2C11-8DB2-9F6C786B8E66" name="Buyer_PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>987BFDEC-218B-0C26-0B55-F1B0FDC53FD3</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5AEC3B6-B9BE-8AEA-8D23-936297CE1C5E"/>
+<colUsage columnID="D50634AB-CA7E-8B32-8E15-B6713B8CE2C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FF63215-A46C-CE89-8A22-9FDE08D33E0D" name="Buyer_idBuyer_UN">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>B35FA9EE-8E86-9B01-E25E-2ECD255513CE</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D50634AB-CA7E-8B32-8E15-B6713B8CE2C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4F2FA44-7870-46B5-E4CD-2311DFA3B877" name="Buyer_LegalEntity_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>E3C61125-81E8-1CF8-DA45-13E1AE1101FA</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5AEC3B6-B9BE-8AEA-8D23-936297CE1C5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

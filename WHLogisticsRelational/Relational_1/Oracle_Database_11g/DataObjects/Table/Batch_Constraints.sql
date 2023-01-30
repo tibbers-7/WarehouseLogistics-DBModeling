@@ -1,0 +1,1 @@
+ALTER TABLE batch ADD CONSTRAINT batch_pk PRIMARY KEY ( batch_id );

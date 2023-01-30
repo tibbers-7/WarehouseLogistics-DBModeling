@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6850CAC-D8EA-1BA6-06C9-29897A749E9F" name="ReleaseOrder">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>C9468EAB-E5D5-F0D0-3EA9-DE7C012E3C49</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<abbreviation>RO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRO" id="BD710F01-8657-B49E-FB29-B1305BF1E437">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>FBCE6413-14BD-39E6-60B1-10C578518652</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POrder" id="40136199-5F67-CEF9-4945-D9F565C5D683">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>575146B4-41C4-1A44-04C1-2848967EBA3F</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryNote" id="7C235C43-2EAD-C030-A38D-86543BC3A718">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>6C5E3582-7336-FB14-345E-ECF290358F0A</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="FC2F7B3B-B3E8-D32B-53C4-33BF58F0F549">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>FDCA5B85-911D-2342-B9D6-9E0A219A1F46</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<domain>222E3836-FDEE-27EF-303C-DFC57071C8E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryAddress" id="E725D6C5-39DD-F669-4B86-AF7FAA7B887A">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>79310DD8-317A-D007-A18D-D48CB8FF895C</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROdate" id="EA31788C-B726-1FFA-6FEE-AE9B7BD27E4F">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>88D830F7-C058-49A9-4F62-A83B0C866122</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Buyer_idEntity" id="B93A8CBD-B31B-E196-520C-2AA534CA6183">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>629FF47C-3B18-EE16-FF8E-D85F9A7B9A82</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C13DC95F-08C4-89FC-31B0-B343043FA46C" referredColumn="B5AEC3B6-B9BE-8AEA-8D23-936297CE1C5E"/>
+</associations>
+</Column>
+<Column name="Buyer_idBuyer" id="35992AD0-C43E-8870-933C-127A9385A9A8">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:11:27 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C13DC95F-08C4-89FC-31B0-B343043FA46C" referredColumn="D50634AB-CA7E-8B32-8E15-B6713B8CE2C2"/>
+</associations>
+</Column>
+<Column name="DispatchDate" id="1C7B9DDF-EF03-D55D-A2F3-B27D311A7A31">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:49:08 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C35C725B-7D05-3712-1F0E-DB9DEA315E15" name="ReleaseOrder_PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>A0E6CFD4-C45D-7994-A78A-A4E2061C4A96</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD710F01-8657-B49E-FB29-B1305BF1E437"/>
+<colUsage columnID="35992AD0-C43E-8870-933C-127A9385A9A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DB27D02-F73C-7363-1870-6F7407EBF204" name="ReleaseOrder_Buyer_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>907C4819-28DC-B1BB-97A6-E31B4F46B3DC</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B93A8CBD-B31B-E196-520C-2AA534CA6183"/>
+<colUsage columnID="35992AD0-C43E-8870-933C-127A9385A9A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

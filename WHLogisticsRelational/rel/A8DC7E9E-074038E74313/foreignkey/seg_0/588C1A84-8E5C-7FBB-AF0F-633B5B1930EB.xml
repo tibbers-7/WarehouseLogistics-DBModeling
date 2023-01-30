@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="588C1A84-8E5C-7FBB-AF0F-633B5B1930EB" containerWithKeyObject="124C8BAE-C6C2-94DC-971F-7D15B2113F17" localFKIndex="6931DF4A-A0F5-408D-1529-3CAC7D165845" name="ReleaseOrderItem_ProductionReport_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>29E6FC58-976C-33F6-A6A6-0A693EF47390</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<referredTableLongName>ProductionReport</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7B82E7A-323F-CAA8-9D1F-D4CDB402DC59</referredTableID>
+<keyObject>FEACFF9F-1CB0-6F39-6333-51CDC65CDB8B</keyObject>
+<referredKeyID>FEACFF9F-1CB0-6F39-6333-51CDC65CDB8B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

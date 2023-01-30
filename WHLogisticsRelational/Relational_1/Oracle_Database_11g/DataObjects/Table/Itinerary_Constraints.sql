@@ -1,0 +1,1 @@
+ALTER TABLE itinerary ADD CONSTRAINT itinerary_pk PRIMARY KEY ( iditinerary );

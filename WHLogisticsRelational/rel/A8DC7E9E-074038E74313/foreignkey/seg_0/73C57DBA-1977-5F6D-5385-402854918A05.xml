@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73C57DBA-1977-5F6D-5385-402854918A05" containerWithKeyObject="63D5355A-C988-670E-804A-FD8074BBB1A3" localFKIndex="C1922F47-3C94-32B0-955A-FB915BF14B49" name="Laboratory_LegalEntity_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>8AF85F08-A413-F37C-74CA-5317558AA76C</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<referredTableLongName>LegalEntity</referredTableLongName>
+<arc>A74591D8-CACF-F09C-8A33-560993E34C5D</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>91B58787-ED8F-0372-85E4-97306783ADB9</referredTableID>
+<keyObject>BF9DC251-9A08-4558-398B-FD675DA7D813</keyObject>
+<referredKeyID>BF9DC251-9A08-4558-398B-FD675DA7D813</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEntity</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Laboratory</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

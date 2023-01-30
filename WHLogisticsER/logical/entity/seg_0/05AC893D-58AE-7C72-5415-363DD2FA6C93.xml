@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05AC893D-58AE-7C72-5415-363DD2FA6C93" name="Batch">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 19:53:21 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idBatch" id="2B6663B6-104C-8A49-F7B9-FA33F504B362">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 19:53:30 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="3C308733-D7CD-C66C-0D16-A7F784E3FDFD">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 19:53:42 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExpDate" id="BA44C3AA-B4ED-D9FE-8E32-067819D89D58">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 19:53:56 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPR" id="94FB064F-89D3-76F0-1E1E-A5DA797B5813">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:56:06 UTC</createdTime>
+<generatorID>6EEC4F82-A449-3E3F-9995-5CF72F6467B4</generatorID>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AC8FD6E9-3ACF-0702-6C75-3156D208EDC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

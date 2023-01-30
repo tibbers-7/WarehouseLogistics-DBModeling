@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D50FA1C3-A9C7-4421-C83C-DE0CD7B225C7" name="Buyer">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:25:15 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>BFF7C1FE-4875-25DF-87F9-F6FD75E29C62</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idBuyer" id="C75156CD-FEF6-C88D-3A55-B9B803BA335A">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:25:21 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FinLimit" id="F86821F1-D0E4-D2D1-B8BF-F843518CA72B">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:25:29 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CasaConto" id="E8428D25-2A42-9358-60AF-9F4BA1D05F10">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:25:56 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ManagerOfOperations" id="9102808B-FD3A-1F62-78B5-F23F85E4E200">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:26:19 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B35FA9EE-8E86-9B01-E25E-2ECD255513CE" name="Buyer PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:01:50 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C75156CD-FEF6-C88D-3A55-B9B803BA335A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

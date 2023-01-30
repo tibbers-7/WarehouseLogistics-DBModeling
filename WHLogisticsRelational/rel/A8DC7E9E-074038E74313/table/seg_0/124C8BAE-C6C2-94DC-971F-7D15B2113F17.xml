@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="124C8BAE-C6C2-94DC-971F-7D15B2113F17" name="ReleaseOrderItem">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>D93422AE-B690-7B45-53C9-5E882526645F</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<abbreviation>ROI</abbreviation>
+<afterCreate><![CDATA[
+INSERT INTO ReleaseOrderItem (idROI,Quantity,ProductionReport_idPR,ReleaseOrder_idRO,ReleaseOrder_Buyer_idEntity,idSKU)
+VALUES (1,30,1,1,1,1)
+
+INSERT INTO ReleaseOrderItem (idROI,Quantity,ProductionReport_idPR,ReleaseOrder_idRO,ReleaseOrder_Buyer_idEntity,idSKU)
+VALUES (2,20,1,1,1,1)
+
+INSERT INTO ReleaseOrderItem (idROI,Quantity,ProductionReport_idPR,ReleaseOrder_idRO,ReleaseOrder_Buyer_idEntity,idSKU)
+VALUES (3,50,1,1,1,1)
+
+INSERT INTO ReleaseOrderItem (idROI,Quantity,ProductionReport_idPR,ReleaseOrder_idRO,ReleaseOrder_Buyer_idEntity,idSKU)
+VALUES (4,10,1,1,1,1)]]></afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idROI" id="AC223721-3682-00F0-3595-525F82A98606">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>15F19858-3DE0-48B2-4DA8-465FD0B4BA9E</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="22FB1B9E-B632-D407-847E-2A4D1260A074">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>8C57C6B4-2ED8-6197-3A0C-EA46CD579381</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductionReport_idPR" id="D0FB55E4-7D8E-375F-986E-05DA90051721">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>DBD5B1CB-31B8-E44B-0295-7D9719399B23</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="588C1A84-8E5C-7FBB-AF0F-633B5B1930EB" referredColumn="80E36CA1-86DB-90F3-9C45-2C666678C2C5"/>
+</associations>
+</Column>
+<Column name="ReleaseOrder_idRO" id="47F85762-4A08-BF58-D37F-50F8ECF46F13">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>D35C9D6B-1180-856A-7D13-6DE1D4A84CA8</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="080529AA-2430-80A2-53ED-B69E838283A0" referredColumn="BD710F01-8657-B49E-FB29-B1305BF1E437"/>
+</associations>
+</Column>
+<Column name="ReleaseOrder_Buyer_idEntity" id="6D7C04D7-A6EB-C19D-2B7E-59D1452DA1C0">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>B3E60FAA-E623-5FA8-7571-112503F6E48B</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idSKU" id="1EA32A0D-10D6-424F-252B-65B6CA1ACA7E">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:37:21 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReleaseOrder_Buyer_idBuyer" id="9A7E65C0-3CE9-4209-A84A-F368197D6150">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-25 12:09:00 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="080529AA-2430-80A2-53ED-B69E838283A0" referredColumn="35992AD0-C43E-8870-933C-127A9385A9A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFA78CC2-3923-224B-AE84-960067E1EF2D" name="ReleaseOrderItem_PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>2D885FF1-CF5F-8B22-22FE-473015955516</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC223721-3682-00F0-3595-525F82A98606"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62E5FCE0-781D-D4BC-E767-68AB8F8A1F89" name="ReleaseOrderItem_ReleaseOrder_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>6F36A0FC-F6F6-8930-CBDF-0B02602F2522</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47F85762-4A08-BF58-D37F-50F8ECF46F13"/>
+<colUsage columnID="9A7E65C0-3CE9-4209-A84A-F368197D6150"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6931DF4A-A0F5-408D-1529-3CAC7D165845" name="ReleaseOrderItem_ProductionReport_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>29E6FC58-976C-33F6-A6A6-0A693EF47390</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0FB55E4-7D8E-375F-986E-05DA90051721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

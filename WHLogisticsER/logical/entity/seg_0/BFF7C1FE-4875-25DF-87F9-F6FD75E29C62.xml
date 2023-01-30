@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFF7C1FE-4875-25DF-87F9-F6FD75E29C62" name="LegalEntity">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:22:57 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEntity" id="CCD5C7D7-4C3D-6F13-E63C-149465CE0E5B">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:23:07 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="0B6C8AA7-9E00-F29D-299A-F95FE9672839">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:23:17 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contact" id="3F74DE12-A4B0-8AA6-65A9-486DC5BFDB8B">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:23:25 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PersonInCharge" id="521D53CA-7E47-E1DF-DE1F-28755423B87E">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:23:55 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="94CF6AE8-3D6F-B7EB-5B12-413E93B6AAAC">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:24:09 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PIB" id="5E5F8F7C-BF43-85FA-CD35-28C3667297B0">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:24:16 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="987BFDEC-218B-0C26-0B55-F1B0FDC53FD3" name="LegalEntity PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:23:16 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCD5C7D7-4C3D-6F13-E63C-149465CE0E5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

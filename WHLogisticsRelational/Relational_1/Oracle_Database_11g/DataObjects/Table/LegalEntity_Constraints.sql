@@ -1,0 +1,1 @@
+ALTER TABLE legalentity ADD CONSTRAINT legalentity_pk PRIMARY KEY ( identity );

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="191532B3-891C-2A3E-D72C-B8CD4CC1FD7E" name="Analysis">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>00C6CAF5-CF40-30DE-EDDC-D5F969726C8E</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAnalysis" id="D5208A11-3F12-F57B-8DED-ECD5E7B64527">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>A86D844E-EFF2-5792-D27E-67A37D157A5D</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductionReport_idPR" id="FF6113F9-D6D7-C7B2-1828-3940420EB9D3">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>73EE6B76-5D64-0A49-791E-063F452FAD08</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BC3A217-52AF-2FE7-4F01-AE85D5B83EE9" referredColumn="80E36CA1-86DB-90F3-9C45-2C666678C2C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38EA733B-42B1-3EDC-95DE-09A51F0CCFDD" name="Analysis_PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>406E51A6-1740-9400-5693-2A18E9DCA5FC</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5208A11-3F12-F57B-8DED-ECD5E7B64527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F06C8A84-A3EB-B056-55CA-498AAD33D65D" name="Analysis_ProductionReport_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>B3D4997C-CD84-8B0C-B5E4-FDD8D01F5F1B</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF6113F9-D6D7-C7B2-1828-3940420EB9D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

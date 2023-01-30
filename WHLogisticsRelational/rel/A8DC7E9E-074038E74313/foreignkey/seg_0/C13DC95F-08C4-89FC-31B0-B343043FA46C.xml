@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C13DC95F-08C4-89FC-31B0-B343043FA46C" containerWithKeyObject="C6850CAC-D8EA-1BA6-06C9-29897A749E9F" localFKIndex="6DB27D02-F73C-7363-1870-6F7407EBF204" name="ReleaseOrder_Buyer_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>907C4819-28DC-B1BB-97A6-E31B4F46B3DC</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<referredTableLongName>Buyer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A583CD32-2ADB-AF59-2564-84B2AAFEC516</referredTableID>
+<keyObject>B9EC1084-C659-2C11-8DB2-9F6C786B8E66</keyObject>
+<referredKeyID>B9EC1084-C659-2C11-8DB2-9F6C786B8E66</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEntity,idBuyer</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

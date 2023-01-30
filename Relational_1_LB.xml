@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+<changeSet author="Anja" id="_10">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter="/" splitStatements="false"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Structure_Type\MDSYS.SDO_GEOMETRY.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_20">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter="/" splitStatements="false"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Structure_Type\XMLTYPE.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_30">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Analysis.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_40">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Analysis_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_50">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\AnalysisReport.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_60">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\AnalysisReport_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_70">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Batch.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_80">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Batch_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_90">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Buyer.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_100">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Buyer_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_110">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Itinerary.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_120">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Itinerary_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_130">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Laboratory.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_140">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Laboratory_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_150">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\LegalEntity.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_160">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\LegalEntity_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_170">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ProductionReport.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_180">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ProductionReport_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_190">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ReleaseOrder.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_200">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ReleaseOrder_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_210">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ReleaseOrderItem.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_220">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\ReleaseOrderItem_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_230">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\SKU_Multiple.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_240">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\SKU_Multiple_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_250">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\StorageKeepingUnit.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_260">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\StorageKeepingUnit_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_270">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Transporter.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_280">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Transporter_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_290">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Vehicle.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_300">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\Table\Vehicle_Constraints.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_310">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Analysis_ProductionReport_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_320">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\AnalysisReport_Analysis_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_330">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Batch_ProductionReport_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_340">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Buyer_LegalEntity_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_350">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Itinerary_ReleaseOrder_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_360">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Itinerary_Vehicle_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_370">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Laboratory_Analysis_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_380">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Laboratory_LegalEntity_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_390">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Relation_14_StorageKeepingUnit_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_400">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Relation_14_StorageKeepingUnit_FKv1.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_410">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\ReleaseOrder_Buyer_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_420">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\ReleaseOrderItem_ProductionReport_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_430">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\ReleaseOrderItem_ReleaseOrder_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_440">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\StorageKeepingUnit_Batch_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_450">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Transporter_LegalEntity_FK.sql"/>
+</changeSet>
+<changeSet author="Anja" id="_460">
+  <sqlFile dbms="oracle" encoding="UTF-8" endDelimiter=";" splitStatements="true"  stripComments="false" 
+           path="WHLogisticsRelational\Relational_1\Oracle_Database_11g\DataObjects\ForeignKey\Vehicle_Transporter_FK.sql"/>
+</changeSet>
+</databaseChangeLog>

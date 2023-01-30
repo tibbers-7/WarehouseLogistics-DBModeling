@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5E1812E-8CD6-4288-8346-59C84BB43C90" name="SKU_Multiple">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<ordsAlias>relation_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="StorageKeepingUnit_idSKU" id="BAA5928F-5E02-49AF-7238-5BAB4C5D1619">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64292998-48A8-A715-18E8-E0DB74466636" referredColumn="BC1AED27-90AF-DDBF-EFE2-79932655F062"/>
+</associations>
+</Column>
+<Column name="StorageKeepingUnit_idSKU1" id="54DF04DF-D9C6-F8D5-DA3D-B361DACA1C64">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCA0B9B1-D12A-2FF1-278B-DDEFFB97581F" referredColumn="BC1AED27-90AF-DDBF-EFE2-79932655F062"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E1A95D9-AFDD-63BA-81F2-902599E52347" name="Relation_14_PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA5928F-5E02-49AF-7238-5BAB4C5D1619"/>
+<colUsage columnID="54DF04DF-D9C6-F8D5-DA3D-B361DACA1C64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2596965D-1F2E-5C15-ED8D-7F074CCAC961" name="Relation_14_StorageKeepingUnit_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>92D2E009-E0A5-E7B1-E079-694E3F32657A</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA5928F-5E02-49AF-7238-5BAB4C5D1619"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="758A112B-38D5-7A91-BCBD-C18C7FE2B119" name="Relation_14_StorageKeepingUnit_FKv1">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>92D2E009-E0A5-E7B1-E079-694E3F32657A</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54DF04DF-D9C6-F8D5-DA3D-B361DACA1C64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

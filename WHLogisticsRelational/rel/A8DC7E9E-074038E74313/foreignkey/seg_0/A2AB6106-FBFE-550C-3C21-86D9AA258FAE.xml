@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2AB6106-FBFE-550C-3C21-86D9AA258FAE" containerWithKeyObject="4B0B0BED-3CD8-8F0B-AA03-B37756AD2AC0" localFKIndex="0252C891-1D2E-7039-F436-68028A847FCF" name="Batch_StorageKeepingUnit_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-25 11:42:36 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<referredTableLongName>StorageKeepingUnit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CFE92BBC-C27C-04F4-ED45-AA8C09DB4F5B</referredTableID>
+<keyObject>CACA9C3F-026B-BD24-07F5-FC68D79E4E83</keyObject>
+<referredKeyID>CACA9C3F-026B-BD24-07F5-FC68D79E4E83</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idSKU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

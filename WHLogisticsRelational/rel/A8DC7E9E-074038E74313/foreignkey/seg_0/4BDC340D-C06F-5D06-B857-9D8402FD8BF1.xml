@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4BDC340D-C06F-5D06-B857-9D8402FD8BF1" containerWithKeyObject="63D5355A-C988-670E-804A-FD8074BBB1A3" localFKIndex="43B31CDE-9496-EB68-E94E-E7BE9F75BABA" name="Laboratory_Analysis_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>5F706DF0-D0D7-46B2-AD1C-34C9F63199BD</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<referredTableLongName>Analysis</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>191532B3-891C-2A3E-D72C-B8CD4CC1FD7E</referredTableID>
+<keyObject>38EA733B-42B1-3EDC-95DE-09A51F0CCFDD</keyObject>
+<referredKeyID>38EA733B-42B1-3EDC-95DE-09A51F0CCFDD</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>idAnalysis</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

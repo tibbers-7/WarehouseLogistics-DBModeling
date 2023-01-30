@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EA28734-1570-725E-91AB-AB7AF8C4AB45" name="Itinerary">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:14:54 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idItinerary" id="9D63AE94-97DA-BE4B-7E18-52ADE6C15A39">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:18:33 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TranspPrice" id="FFD1C8C7-5BF8-E173-A2B7-C50BD329ED82">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:18:42 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DispatchDate" id="1DEE70BE-77BB-52AC-E612-68F0F258A8CF">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:19:08 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TimeSlot" id="E413627B-21DA-E044-4FD2-C80D87B8FD5E">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:19:20 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idRO" id="F2938E17-C891-FD17-2D08-E973AEF54F32">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:53:16 UTC</createdTime>
+<generatorID>7F9F337B-184A-AC06-B59F-3798A8B5EBC1</generatorID>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<referedAttribute>FBCE6413-14BD-39E6-60B1-10C578518652</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idVehicle" id="BC2600A6-0813-3AC8-DD21-D08706495D07">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:54:25 UTC</createdTime>
+<generatorID>E0F6653F-935D-822E-6221-329CE0E0929B</generatorID>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<referedAttribute>48F0FF46-363A-EE73-7170-738BF1600F32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idBuyer" id="DF980258-C1C1-432D-04AC-3B4249174158">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:01:02 UTC</createdTime>
+<generatorID>7F9F337B-184A-AC06-B59F-3798A8B5EBC1</generatorID>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<referedAttribute>629FF47C-3B18-EE16-FF8E-D85F9A7B9A82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="538B0889-F00D-1DC8-CB2F-D49CD6B37D80" name="Itinerary PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:18:41 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D63AE94-97DA-BE4B-7E18-52ADE6C15A39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

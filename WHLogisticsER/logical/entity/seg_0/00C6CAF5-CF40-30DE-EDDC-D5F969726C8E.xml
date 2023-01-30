@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00C6CAF5-CF40-30DE-EDDC-D5F969726C8E" name="Analysis">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:30:44 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAnalysis" id="A86D844E-EFF2-5792-D27E-67A37D157A5D">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:30:55 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPR" id="73EE6B76-5D64-0A49-791E-063F452FAD08">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:07:55 UTC</createdTime>
+<generatorID>B3D4997C-CD84-8B0C-B5E4-FDD8D01F5F1B</generatorID>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<referedAttribute>AC8FD6E9-3ACF-0702-6C75-3156D208EDC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="406E51A6-1740-9400-5693-2A18E9DCA5FC" name="Analysis PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:31:03 UTC</createdTime>
+<ownerDesignName>WHLogisticsER</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A86D844E-EFF2-5792-D27E-67A37D157A5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

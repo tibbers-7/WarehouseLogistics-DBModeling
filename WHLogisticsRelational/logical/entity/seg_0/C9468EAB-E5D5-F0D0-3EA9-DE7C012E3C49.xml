@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9468EAB-E5D5-F0D0-3EA9-DE7C012E3C49" name="ReleaseOrder">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 19:51:26 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>RO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRO" id="FBCE6413-14BD-39E6-60B1-10C578518652">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:10:24 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POrder" id="575146B4-41C4-1A44-04C1-2848967EBA3F">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:10:32 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DeliveryNote" id="6C5E3582-7336-FB14-345E-ECF290358F0A">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:10:57 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="FDCA5B85-911D-2342-B9D6-9E0A219A1F46">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:11:09 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<domain>222E3836-FDEE-27EF-303C-DFC57071C8E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DeliveryAddress" id="79310DD8-317A-D007-A18D-D48CB8FF895C">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:13:30 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROdate" id="88D830F7-C058-49A9-4F62-A83B0C866122">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:13:49 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idBuyer" id="629FF47C-3B18-EE16-FF8E-D85F9A7B9A82">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:01:02 UTC</createdTime>
+<generatorID>907C4819-28DC-B1BB-97A6-E31B4F46B3DC</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<referedAttribute>CCD5C7D7-4C3D-6F13-E63C-149465CE0E5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0E6CFD4-C45D-7994-A78A-A4E2061C4A96" name="ReleaseOrder PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 20:10:31 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<engineerTo>
+<item key="A8DC7E9E-30DB-74EF-33BB-074038E74313" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBCE6413-14BD-39E6-60B1-10C578518652</attributeRef>
+<attributeRef>629FF47C-3B18-EE16-FF8E-D85F9A7B9A82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

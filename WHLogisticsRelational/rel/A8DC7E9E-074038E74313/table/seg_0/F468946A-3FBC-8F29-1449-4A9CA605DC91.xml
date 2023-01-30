@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F468946A-3FBC-8F29-1449-4A9CA605DC91" name="Vehicle">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>1D8E72C4-7CD1-3E06-BB59-0F5B9AF9D2DC</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idVehicle" id="A620070F-6BE2-A93A-9A19-46860FFDBBB6">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>48F0FF46-363A-EE73-7170-738BF1600F32</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70CA5117-8A88-2B99-17C6-4DD50F276092" referredColumn="A82077A6-CF21-3304-5920-A7C1D115DF57"/>
+</associations>
+</Column>
+<Column name="LoadCapacity" id="14F7BE44-8889-6E5E-E56A-837493BA0F25">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>A01505C8-3040-DCA9-C57D-7FDE1EFED621</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Age" id="8EC281BD-286D-8F9B-478D-71C798C40814">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>6FDBB906-B10C-7ECB-03D3-1CCE2BDAC5D3</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlateNumber" id="3082B7E7-1E34-A3FF-8346-4BF62720FB3C">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>F646ABDE-33AA-3792-31F2-6455751ABAD0</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="67F97AAD-7495-334F-B0D6-FBD649819383">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>06529602-BC3B-ED37-A90F-52EB1104D51E</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<domain>E05969BC-7497-D43E-EDCF-0AC158C7A879</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="031CEB32-72C8-3B9C-C835-BB6F785EA2B4" name="Vehicle_PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>A209A2AB-F173-C02C-CA16-07651A89C935</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A620070F-6BE2-A93A-9A19-46860FFDBBB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ECD6AF7-F345-C50B-31B2-B8B2AAED8BF1" name="Vehicle_Transporter_FK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:14:10 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A620070F-6BE2-A93A-9A19-46860FFDBBB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

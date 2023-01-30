@@ -1,0 +1,1 @@
+ALTER TABLE productionreport ADD CONSTRAINT productionreport_pk PRIMARY KEY ( idpr );

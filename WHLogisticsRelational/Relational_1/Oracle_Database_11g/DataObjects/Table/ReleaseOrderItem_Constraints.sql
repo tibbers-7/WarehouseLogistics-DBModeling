@@ -1,0 +1,1 @@
+ALTER TABLE releaseorderitem ADD CONSTRAINT releaseorderitem_pk PRIMARY KEY ( idroi );

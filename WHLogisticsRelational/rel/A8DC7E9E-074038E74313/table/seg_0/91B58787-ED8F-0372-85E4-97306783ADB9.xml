@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91B58787-ED8F-0372-85E4-97306783ADB9" name="LegalEntity">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>BFF7C1FE-4875-25DF-87F9-F6FD75E29C62</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<afterCreate><![CDATA[INSERT INTO LegalEntity (idEntity,Email,Contact,PersonInCharge,Address,PIB,LegalEntity_TYPE)
+VALUES (1,'milanmiric@gmail.com','+3816219832','Bulevar Evrope 7,Novi Sad',8247539,'BUYER')]]></afterCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEntity" id="B1742888-912D-B8FA-617F-9E46831B3599">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>CCD5C7D7-4C3D-6F13-E63C-149465CE0E5B</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="CB9DF372-4048-ABD9-55A8-6A72AE41FFD3">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>0B6C8AA7-9E00-F29D-299A-F95FE9672839</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contact" id="25E9D38F-9311-BD83-B6D7-83AB48C80C32">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>3F74DE12-A4B0-8AA6-65A9-486DC5BFDB8B</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PersonInCharge" id="84303BBE-AF2E-84DE-5176-99703549A63B">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>521D53CA-7E47-E1DF-DE1F-28755423B87E</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="5D30AC89-1360-A51F-5CE4-79A76CA6EC06">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>94CF6AE8-3D6F-B7EB-5B12-413E93B6AAAC</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PIB" id="D9F313D6-9320-054E-0829-37E994177543">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>5E5F8F7C-BF43-85FA-CD35-28C3667297B0</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LegalEntity_TYPE" id="B39EEB6B-39FC-A6B2-BF2C-870E5493287E">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<constraintName>CH_INH_LegalEntity</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<listOfValues>
+<valueDef value="Buyer" description="entity Buyer"/>
+<valueDef value="Laboratory" description="entity Laboratory"/>
+<valueDef value="LegalEntity" description="entity LegalEntity"/>
+<valueDef value="Transporter" description="entity Transporter"/>
+</listOfValues>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF9DC251-9A08-4558-398B-FD675DA7D813" name="LegalEntity_PK">
+<createdBy>Anja</createdBy>
+<createdTime>2023-01-24 21:10:07 UTC</createdTime>
+<generatorID>987BFDEC-218B-0C26-0B55-F1B0FDC53FD3</generatorID>
+<ownerDesignName>WHLogisticsRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1742888-912D-B8FA-617F-9E46831B3599"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
